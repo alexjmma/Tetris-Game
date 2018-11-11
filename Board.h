@@ -25,9 +25,9 @@ public:
 	bool IsGameOver();
 
 private:
-	enum {POS_FREE, POS_FILLED};
+	enum {POS_FREE, POS_FILLED}; //user assigned data type
 	int mBoard[board_width][board_height];
-	Pieces *mPieces;
+	Pieces *mPieces; //pointer
 	int mScreenHeight;
 
 	void InitBoard();
@@ -35,14 +35,5 @@ private:
 	~Board();
 };
 
-void Board::InitBoard()
-{
-	for (int i = 0; i < board_width; i++)
-	{
-		for (int j = 0; j < board_height; j++)
-		{
-			mBoard[i][j] = POS_FREE;
-		}
-	}
-}
+
 
