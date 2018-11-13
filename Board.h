@@ -32,7 +32,7 @@ private:
 
 	void InitBoard();
 	void DeleteLine(int pY);
-	~Board();
+	
 };
 
 

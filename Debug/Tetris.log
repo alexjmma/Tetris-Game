@@ -1,2 +1,1 @@
-﻿  Board.cpp
-  Tetris.vcxproj -> D:\Github\Tetris-Game\Debug\Tetris.exe
+﻿LINK : fatal error LNK1104: cannot open file 'SDL/lib/SDL.lib'
